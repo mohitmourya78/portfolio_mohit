@@ -1,15 +1,13 @@
 {
-  "homepage": "https://mohitmourya78.github.io/Portfolio-mohit",
   "name": "portfolio-mohit",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "dev": "vite",
-    "build": "npm install && cd ./client && npm install && npm run build",
+    "build": "vite-build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
