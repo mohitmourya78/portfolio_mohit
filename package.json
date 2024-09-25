@@ -1,7 +1,7 @@
 {
   "name": "npm",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "server/app.js",
   "scripts": {
     "dev": "nodemon server/app.js",
     "build": "npm install && npm install --prefix ./client && npm run build --prefix ./client",
