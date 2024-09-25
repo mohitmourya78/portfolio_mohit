@@ -1,0 +1,29 @@
+Center{
+    color: white;
+    font-size: 24px;
+    font-family: math;
+    font-weight: bold;
+    background-color: #14131a;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    border: 1px;
+}
+
+.trans {
+    transition: transform 0.3s ease;
+  }
+  
+  .trans:hover {
+    transform: scale(1.1);
+  }
+  
+  .trans {
+    animation: bounce 2s infinite;
+  }
+  
+

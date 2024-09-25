@@ -1,0 +1,70 @@
+.feedback-container {
+    padding: 2rem;
+    background-color: #272323;
+    border-radius: 2rem;
+    max-width: 28rem;
+    margin: auto;
+    color: white;
+    position: relative;
+    top: 5rem;
+}
+
+.feedback-title {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: white;
+    display: flex;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 9px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: black;
+}
+
+button {
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 5px;
+}
+
+.feebackSubmit{
+
+    background-color: #09602e;
+
+}
+.feebackSubmit:hover{
+
+    background-color: #12b558;
+
+}
+
+.home{
+    color: white;
+}
+

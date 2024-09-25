@@ -1,0 +1,159 @@
+.name {
+    height: 47px;
+    font-size: 30px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #14131a;
+    gap: 51rem;
+    height: 4rem;
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.navlist li {
+    display: flex;
+    margin: 14px;
+    list-style: none;
+
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.navlist li a:hover {
+    text-decoration: none;
+    color: rgb(232, 11, 11);
+}
+
+.navlist li a:active {
+    text-decoration: underline;
+    color: rgb(38, 230, 108);
+}
+
+.feedback-btn {
+
+    color: white;
+    font-size: .75rem;
+    line-height: 1rem;
+    background-color: #2bd576; 
+    border-radius: .375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    width: 110px;}
+
+.feedback-btn:hover{
+    background-color: #09602e;
+}
+
+.left {
+    display: flex;
+    gap: .5rem;
+    padding: 1.25rem;
+}
+
+.roundball {
+    background-color: #2bd576;
+    border-radius: 9999px;
+    width: 1rem;
+    height: 1rem;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.line {
+    background-color: #10db68;
+    width: 45px;
+    height: 8px;
+    margin: 4px 0;
+    transition: transform 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger.active .line:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .burger {
+        display: block;
+        position: relative;
+        right: 25px;
+    }
+
+    .leftside {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #14131a;
+        padding: 1rem;
+        z-index: 10;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .navbar {
+        gap: 25rem;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .right {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .navbar {
+        gap: 24rem;
+        height: 5rem;
+    }
+
+    .roundball {
+        background-color: #2bd576;
+        border-radius: 9999px;
+        width: 2rem;
+        height: 2rem;
+    }
+}

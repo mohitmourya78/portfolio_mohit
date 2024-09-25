@@ -1,0 +1,72 @@
+.section {
+
+    position: fixed;
+    top: 70px;
+    padding: 1rem;
+}
+
+.activecolor {
+    display: flex;
+    color: #4f4f52;
+    padding: 21px;
+    gap: 25px;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+
+
+.hide {
+    visibility: hidden;
+}
+
+
+.left-side {
+    padding: 1.25rem;
+    background-color: #14131a;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    width: 143%;
+    height: 87vh;
+    scroll-behavior: auto;
+    overflow: scroll;
+
+}
+.social-set {
+    font-size: 40px;
+
+}
+
+.social-trans {
+    transition: transform 0.3s ease;
+}
+
+.social-trans:hover {
+    transform: scale(1.1);
+  
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    
+
+    .respnav{
+        display: none;
+    }
+
+
+}
+@media (max-width: 1024px) {
+    
+
+    .respnav{
+        display: none;
+    }
+
+
+}

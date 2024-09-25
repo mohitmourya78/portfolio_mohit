@@ -1,0 +1,116 @@
+.project {
+    color: white;
+    font-size: 24px;
+    font-family: math;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.25rem;
+}
+
+.project-item {
+    --tw-text-opacity: 1;
+    color: rgb(39 39 42 / var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: #14131a;
+    border-radius: .5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    gap: .75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-img {
+    color: transparent;
+    object-fit: fill;
+    aspect-ratio: 16 / 9;
+    max-width: 100%;
+    height: 28rem;
+    display: block;
+
+}
+
+.project-heading {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.heading {
+    font-weight: 600;
+    display: flex;
+    color: aliceblue;
+    font-size: 21px;
+}
+
+.para {
+    color: #4f4f52;
+    font-size: 14px;
+    line-height: 1rem;
+    display: flex;
+    color: rgb(207, 221, 234);
+}
+
+.trans {
+
+    transition: transform 0.3s ease;
+}
+
+.trans:hover {
+    transform: scale(1.1);
+  
+}
+
+@media  (max-width: 1024px) {
+
+
+    .contact-grid{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    
+
+}
+
+@media  (max-width: 700px) {
+
+    .contact-grid{
+        grid-template-columns: 1fr ;
+    }
+
+     .contact-item{
+
+        height: 36rem;
+        width: 33rem;
+
+     }
+
+     .heading{
+        font-size: 46px;
+     }
+     .para{
+        font-size: 27px;
+        line-height: 2rem;
+     }
+
+     .project{
+        font-size: 44px;
+
+     }
+    
+     .project-grid{
+        padding-top: 2rem;
+     }
+
+}
+

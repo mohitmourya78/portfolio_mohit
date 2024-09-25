@@ -1,0 +1,20 @@
+.about{
+    color: white;
+    font-size: 24px;
+    font-family: math;
+    font-weight: bold;
+    padding-top: 37px;
+    
+}
+
+.para{
+    color: #4f4f52;
+    font-size: 18px;
+    line-height: 1rem;
+    display: flex;
+    color: rgb(207, 221, 234);
+    background-color: #14131a;
+    border-radius: .5rem;
+    
+    line-height: 26px;
+}

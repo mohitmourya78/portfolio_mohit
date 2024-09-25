@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cards{
+    display: flex;
+}
+
+.toastBody {
+    font-family: "Atlas Grotesk Web", Arial, Helvetica, sans-serif;
+    color: #d3dce4; 
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
