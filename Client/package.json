@@ -17,7 +17,7 @@
     "bootstrap": "^5.3.3",
     "gh-pages": "^6.1.1",
     "node": "^22.3.0",
-    "npm": "file:..",
+    "npm": "file:..", 
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-toastify": "^10.0.5",
